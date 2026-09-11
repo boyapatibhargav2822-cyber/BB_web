@@ -12,8 +12,9 @@ def user_info():
     name = request.form.get("name")
     age = request.form.get("age")
     mail = request.form.get("email")
+    quote = request.form.get("quote")
 
-    print(f"name: {name}, age: {age}, mail: {mail}")
+    print(f"name: {name}, age: {age}, mail: {mail}, quote: {quote}")
 
     return "code:200, success"
 
